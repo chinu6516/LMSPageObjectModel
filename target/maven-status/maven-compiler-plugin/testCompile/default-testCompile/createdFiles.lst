@@ -1,0 +1,5 @@
+com\lms\qa\testcases\AllSwipeDetailsReportTest.class
+com\lms\qa\testcases\AttendanceRegularizationTest.class
+com\lms\qa\testcases\LoginPageTest.class
+com\lms\qa\testcases\HomePageTest.class
+TestNGRunner\MyRunner.class

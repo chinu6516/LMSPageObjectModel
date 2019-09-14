@@ -1,0 +1,9 @@
+com\lms\qa\pages\AllSwipeDetailsReport.class
+com\lms\qa\base\TestBase.class
+com\lms\qa\pages\AllSwipeDetailsReport$1.class
+com\lms\qa\pages\HomePage.class
+com\lms\qa\pages\LoginPage.class
+com\lms\qa\ExtentReportListener\ExtentReporterNG.class
+com\lms\qa\pages\AttendanceRegularizationPage.class
+com\lms\qa\util\TestUtil.class
+com\lms\qa\util\WebEventListener.class

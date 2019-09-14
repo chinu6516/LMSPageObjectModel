@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="8" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-09-12T23:00:07 IST" name="Command line suite" finished-at="2019-09-12T23:01:48 IST" duration-ms="101278">
+    <groups>
+    </groups>
+    <test started-at="2019-09-12T23:00:07 IST" name="Command line test" finished-at="2019-09-12T23:01:48 IST" duration-ms="101278">
+      <class name="com.lms.qa.testcases.AllSwipeDetailsReportTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lms.qa.testcases.AllSwipeDetailsReportTest@47db50c5]" started-at="2019-09-12T23:00:07 IST" name="setUp" finished-at="2019-09-12T23:00:32 IST" duration-ms="24552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="calculateInOutTimeAndDisplayOnScreen()[pri:2, instance:com.lms.qa.testcases.AllSwipeDetailsReportTest@47db50c5]" started-at="2019-09-12T23:00:32 IST" name="calculateInOutTimeAndDisplayOnScreen" finished-at="2019-09-12T23:00:36 IST" duration-ms="4691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateInOutTimeAndDisplayOnScreen -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lms.qa.testcases.AllSwipeDetailsReportTest@47db50c5]" started-at="2019-09-12T23:00:36 IST" name="tearDown" finished-at="2019-09-12T23:00:37 IST" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lms.qa.testcases.AllSwipeDetailsReportTest -->
+      <class name="com.lms.qa.testcases.AttendanceRegularizationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lms.qa.testcases.AttendanceRegularizationTest@5c072e3f]" started-at="2019-09-12T23:00:38 IST" name="setUp" finished-at="2019-09-12T23:00:48 IST" duration-ms="10471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fillAttendanceRegularizationTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.lms.qa.testcases.AttendanceRegularizationTest@5c072e3f]" started-at="2019-09-12T23:00:48 IST" name="fillAttendanceRegularizationTest" data-provider="getRegularizationTestData" finished-at="2019-09-12T23:00:51 IST" duration-ms="3343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Other]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[General]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bus Late]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillAttendanceRegularizationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lms.qa.testcases.AttendanceRegularizationTest@5c072e3f]" started-at="2019-09-12T23:00:51 IST" name="tearDown" finished-at="2019-09-12T23:00:52 IST" duration-ms="649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lms.qa.testcases.AttendanceRegularizationTest@5c072e3f]" started-at="2019-09-12T23:00:52 IST" name="setUp" finished-at="2019-09-12T23:01:04 IST" duration-ms="11557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fillAttendanceRegularizationTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.lms.qa.testcases.AttendanceRegularizationTest@5c072e3f]" started-at="2019-09-12T23:01:04 IST" name="fillAttendanceRegularizationTest" data-provider="getRegularizationTestData" finished-at="2019-09-12T23:01:07 IST" duration-ms="2909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Forgot To Punch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Morning]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[forgot to punch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillAttendanceRegularizationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lms.qa.testcases.AttendanceRegularizationTest@5c072e3f]" started-at="2019-09-12T23:01:07 IST" name="tearDown" finished-at="2019-09-12T23:01:08 IST" duration-ms="907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lms.qa.testcases.AttendanceRegularizationTest -->
+      <class name="com.lms.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lms.qa.testcases.LoginPageTest@954b04f]" started-at="2019-09-12T23:01:20 IST" name="setUp" finished-at="2019-09-12T23:01:25 IST" duration-ms="5789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.lms.qa.testcases.LoginPageTest@954b04f]" started-at="2019-09-12T23:01:25 IST" name="loginPageTitleTest" finished-at="2019-09-12T23:01:25 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lms.qa.testcases.LoginPageTest@954b04f]" started-at="2019-09-12T23:01:25 IST" name="tearDown" finished-at="2019-09-12T23:01:28 IST" duration-ms="2140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lms.qa.testcases.LoginPageTest@954b04f]" started-at="2019-09-12T23:01:28 IST" name="setUp" finished-at="2019-09-12T23:01:32 IST" duration-ms="4911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="lmsLogoImageTest()[pri:2, instance:com.lms.qa.testcases.LoginPageTest@954b04f]" started-at="2019-09-12T23:01:32 IST" name="lmsLogoImageTest" finished-at="2019-09-12T23:01:33 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lmsLogoImageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lms.qa.testcases.LoginPageTest@954b04f]" started-at="2019-09-12T23:01:33 IST" name="tearDown" finished-at="2019-09-12T23:01:33 IST" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lms.qa.testcases.LoginPageTest@954b04f]" started-at="2019-09-12T23:01:33 IST" name="setUp" finished-at="2019-09-12T23:01:39 IST" duration-ms="5534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:3, instance:com.lms.qa.testcases.LoginPageTest@954b04f]" started-at="2019-09-12T23:01:39 IST" name="loginTest" finished-at="2019-09-12T23:01:45 IST" duration-ms="6529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lms.qa.testcases.LoginPageTest@954b04f]" started-at="2019-09-12T23:01:45 IST" name="tearDown" finished-at="2019-09-12T23:01:48 IST" duration-ms="3053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lms.qa.testcases.LoginPageTest -->
+      <class name="com.lms.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.lms.qa.testcases.HomePageTest@4d1b0d2a]" started-at="2019-09-12T23:01:08 IST" name="setUp" finished-at="2019-09-12T23:01:19 IST" duration-ms="11450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.lms.qa.testcases.HomePageTest@4d1b0d2a]" started-at="2019-09-12T23:01:19 IST" name="verifyHomePageTitleTest" finished-at="2019-09-12T23:01:19 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lms.qa.testcases.HomePageTest@4d1b0d2a]" started-at="2019-09-12T23:01:19 IST" name="tearDown" finished-at="2019-09-12T23:01:20 IST" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lms.qa.testcases.HomePageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

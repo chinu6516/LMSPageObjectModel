@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="ProjectLMS" verbose="1" >
+ 
+   <listeners>
+ 	 <listener class-name="com.lms.qa.ExtentReportListener.ExtentReporterNG" />
+   </listeners>
+   
+    <test name="LMSTest" >
+    <classes>
+   		<class name="com.lms.qa.testcases.LoginPageTest" />
+       <class name="com.lms.qa.testcases.HomePageTest" />
+       <class name="com.lms.qa.testcases.AllSwipeDetailsReportTest" />
+       <class name="com.lms.qa.testcases.AttendanceRegularizationTest" />
+     </classes>
+  </test>
+</suite>
